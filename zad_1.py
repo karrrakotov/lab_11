@@ -21,11 +21,11 @@ def fib(n):
 
 
 if __name__ == '__main__':
-    r_fib = fib(5)
-    r_factorial = factorial(5)
+    r_fib = fib(30)
+    r_factorial = factorial(30)
 
-print(f'Результат работы рекурсивной функции чисел Фибоначчи(5) = {r_fib}.')
+print(f'Результат работы рекурсивной функции чисел Фибоначчи(30) = {r_fib}.')
 print(f'Время выполнения: {timeit.timeit("r_fib", setup="from __main__ import r_fib")} секунд.')
-print(f'Результат работы рекурсивной функции факториала(5) = {r_factorial}. ')
+print(f'Результат работы рекурсивной функции факториала(30) = {r_factorial}. ')
 print(f'Время выполнения: {timeit.timeit("r_factorial", setup="from __main__ import r_factorial")} секунд.')
 
